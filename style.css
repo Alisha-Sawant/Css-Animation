@@ -1,0 +1,136 @@
+body {
+  background-color: #000000 ;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  height: 450px;
+  background-color: DarkCyan;
+  box-shadow: 0px 0px 50px 3px #000;
+}
+
+span {
+  left: 10%;
+  top: 10%;
+  box-shadow: 0px 0px 25px #000;
+  animation: ani 3s infinite;
+  animation-delay: 0.1s;
+}
+
+span:nth-child(1) {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  background-color: #90caf9;
+  left: 4%;
+  top: 4%;
+  animation: ani 3s infinite;
+  animation-delay: 0.3s;
+}
+
+span:nth-child(2) {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: Aqua;
+  left: 8%;
+  top: 8%;
+  animation: ani 3s infinite;
+  animation-delay: 0.4s;
+}
+
+span:nth-child(3) {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background-color: DarkCyan;
+  left: 12%;
+  top: 12%;
+  animation: ani 3s infinite;
+  animation-delay: 0.5s;
+}
+
+span:nth-child(4) {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: Aqua;
+  left: 16%;
+  top: 16%;
+  animation: ani 3s infinite;
+  animation-delay: 0.6s;
+}
+
+span:nth-child(5) {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background-color: #bbdefb;
+  left: 18%;
+  top: 18%;
+  animation: ani 3s infinite;
+  animation-delay: 0.7s;
+}
+
+span:nth-child(6) {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background-color: DarkCyan;
+  left: 20%;
+  top: 20%;
+  animation: ani 3s infinite;
+  animation-delay: 0.8s;
+}
+
+span:nth-child(7) {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #90caf9;
+  left: 24%;
+  top: 24%;
+  animation: ani 3s infinite;
+  animation-delay: 0.9s;
+}
+
+span:nth-child(8) {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #bbdefb;
+  left: 28%;
+  top: 28%;
+  animation: ani 3s infinite;
+  animation-delay: 1.2s;
+}
+span:nth-child(9) {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  background-color: Aqua;
+  left: 30%;
+  top: 30%;
+  animation: ani 3s infinite;
+  animation-delay: 1.4s;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(95deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
